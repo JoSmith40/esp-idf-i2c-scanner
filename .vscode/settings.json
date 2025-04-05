@@ -1,0 +1,11 @@
+{
+        "idf.port": "/dev/tty.usbmodem14401",
+        "idf.customExtraVars": {
+                "IDF_TARGET": "esp32s3"
+        },
+        "idf.openOcdConfigs": [
+                "interface/ftdi/esp_ftdi.cfg",
+                "target/esp32s3.cfg"
+        ],
+        "idf.flashType": "UART"
+}
